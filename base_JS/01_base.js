@@ -74,7 +74,7 @@
 //     console.log('Курс стартует в следующем году')
 // }
 
-const isReady = true
+// const isReady = true
 
 // if (isReady) {
 //     console.log('Все готово')
@@ -94,9 +94,9 @@ const isReady = true
 // 7. Булевая логика
 
 // 8. Функции
-function calculateAge (year) {
-    return 2022 - year
-}
+// function calculateAge (year) {
+//     return 2022 - year
+// }
 
 // console.log(calculateAge (1989))
 // console.log(calculateAge (1984))
@@ -117,4 +117,43 @@ function calculateAge (year) {
 // logInfoAbout('Katya', 1989)
 // logInfoAbout('Katya', 2025)
 
-// 9. Массивы
+// 9. Массивы - правдильно создавать массивы через квадратные скобки
+// const cars = ['Mazda', 'Mercedes', 'Ford']
+// console.log(cars)
+// const cars = new Array('Mazda', 'Mercedes', 'Ford')
+// console.log(cars.length) // проверить длину массива через .length
+// console.log(cars[1]) // проверить под каким индексом находиться в массиве
+// console.log(cars[0])
+//
+// cars[0] = 'Porsche'
+// console.log(cars[0])
+// cars[cars.length] = 'Mazda'
+// console.log(cars)
+
+// 10 Циклы
+// const cars = ['Mazda', 'Mercedes', 'Ford','Porsche']
+//
+// // for (let i = 0; i < cars.length; i++) {
+// //     const car = cars[i]
+// //     console.log(car)
+// // }
+// for (let car of cars) {
+//     console.log(car)
+// }
+
+// 11 Объекты (в объект мы группируем различные значения, в отличае от массива когда мы создаем группу,
+// в объектах создаем разные структуры
+
+// const person = {
+//   firstName: 'Kate',
+//     lastName: 'Zaitseva',
+//     year: '1989',
+//     languages: ['Ru', 'En'],
+//     hasHusband: true,
+//     greet: function () {
+//         console.log('greet')
+//     }
+//
+// }
+//
+// console.log(person.firstName)
