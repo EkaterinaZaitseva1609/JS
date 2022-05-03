@@ -1,41 +1,31 @@
-// const name = "Екатерина"
+//String Объект String используется, чтобы представить и конструировать последовательность символов.
+// const name = 'Katya'
 // const age = 32
-// const output = 'Привет, меня зовут ' + name + ' и мой возраст ' + age + ' лет.'
-// const output = `Hello! My name ${name} and my age ${age< 30 ? 'A': 'B'} years old.`
+
+//const output = 'Привет, меня зовут ' + name + ' и мой возраст ' + age + ' лет'
+// const output = `Привет, меня зовут ${name} и млй возраст ${age} лет.`
 // console.log(output)
 
 // const output = `
 // <div>This is div</div>
-// <p> This is p</p>
-// `
-// console.log(output)
+// <p>this os p</p>
+//`
 
-// const name = "Екатерина"
-// console.log(name.length)
-// console.log(name.toUpperCase())
-// console.log(name.toLowerCase())
-// console.log(name.charAt(5))
-// console.log(name.indexOf('кат'))
-// console.log(name.startsWith('рин'))
-// console.log(name.toLowerCase().startsWith('екат'))
-// console.log(name.repeat(4))
-// const  string = '         password        '
+// const name = 'Katya'
+// console.log(name.length) //кол-во символов в строке
+// console.log(name.toUpperCase()) // привести строку к верхнему регистру
+// console.log(name.toLowerCase()) //привести строку к нижнему регистру
+// console.log(name.indexOf('Kat'))
+// console.log(name.repeat(3))
+// const string = '   password   '
 // console.log(string.trim())
 // console.log(string.trimLeft())
-// console.log(string.trimRight())
-
-function logPerson(s, name, age) {
-    if (age < 0)  {
-        age = "Еще не родидся"
-    }
-        console.log(s, name, age)
-  return `${s[0]}${name}${s[1]}${age}${s[2]}`
-}
-const personName = 'Ekaterina'
-const personName2 = 'Ярослав'
-const personAge = 32
-const personAge2 = -10
-const output = logPerson`Name: ${personName}, Age: ${personAge}`
-const output2 = logPerson`Name: ${personName2}, Age: ${personAge2}`
-console.log(output)
-console.log(output2)
+//
+// function logPerson(s, name, age) {
+//     console.log(s, name, age)
+//    return `${s[0]}${name}${s[1]}${age}${s[2]}`
+// }
+// const personName = 'Katya'
+// const personAge = 32
+// const output = logPerson`Имя: ${personName}, Возраст ${personAge}`
+// console.log(output)
